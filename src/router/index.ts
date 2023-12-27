@@ -8,6 +8,7 @@ const routes: RouteRecordRaw[] = [
     name: "Index",
     component: Index,
   },
+
   {
     path: "/index2",
     name: "Index2",
@@ -16,7 +17,7 @@ const routes: RouteRecordRaw[] = [
 ];
 
 const router = createRouter({
-  history: createWebHistory('/'),
+  history: createWebHistory("/"),
   routes,
 });
 
